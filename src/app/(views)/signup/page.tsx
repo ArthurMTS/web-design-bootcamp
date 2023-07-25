@@ -10,7 +10,7 @@ export default function SignUp() {
       <div className="circle"></div>
       <div className="card">
         <div className="logo">
-          <img src="/icons/bitcoin.svg" alt="Bitcoin icon" />
+          <i className="bx bx-bitcoin"></i>
         </div>
         <h2>Create Account</h2>
         <form className="form">

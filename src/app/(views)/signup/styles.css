@@ -148,7 +148,7 @@ main {
   color: #143d81;
 }
 
-@media (width >=500px) {
+@media (width >= 500px) {
   body {
     padding: 0;
   }
