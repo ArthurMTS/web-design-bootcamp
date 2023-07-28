@@ -1,3 +1,4 @@
+import { Nav } from "@/components/Nav";
 import "./styles.css";
 
 export const metadata = {
@@ -17,7 +18,9 @@ export default function Login() {
           <a href="#">Forgot your password?</a>
           <button type="submit">LOGIN</button>
         </form>
-      </div>     
+      </div>
+
+      <Nav />     
     </main>
   );
 }

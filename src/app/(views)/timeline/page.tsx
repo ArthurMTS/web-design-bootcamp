@@ -1,3 +1,4 @@
+import { Nav } from "@/components/Nav";
 import "./styles.css";
 
 export default function Timeline() {
@@ -120,6 +121,8 @@ export default function Timeline() {
           </div>
         </div>
       </div>
+
+      <Nav />
     </main>
   );
 }

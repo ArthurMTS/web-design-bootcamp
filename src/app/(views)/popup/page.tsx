@@ -2,6 +2,7 @@
 import { useState } from "react";
 
 import "./styles.css";
+import { Nav } from "@/components/Nav";
 
 export default function Popup() {
   const [open, setOpen] = useState(false);
@@ -22,6 +23,8 @@ export default function Popup() {
           You have opened the modal, they are great for displaying critical informations or confirming actions!
         </p>
       </div>
+
+      <Nav />
     </main>
   );
 }

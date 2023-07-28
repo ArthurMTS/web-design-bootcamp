@@ -1,3 +1,4 @@
+import { Nav } from "@/components/Nav";
 import "./styles.css";
 
 export default function Widget() {
@@ -47,6 +48,8 @@ export default function Widget() {
 
         </div>
       </div>
+
+      <Nav />
     </main>
   );
 }

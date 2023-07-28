@@ -1,3 +1,4 @@
+import { Nav } from "@/components/Nav";
 import "./styles.css";
 
 export const metadata = {
@@ -23,6 +24,8 @@ export default function SignUp() {
           Existing users, sign in <a href="#">Here</a>
         </footer>
       </div>
+
+      <Nav />
     </main>
   );
 }

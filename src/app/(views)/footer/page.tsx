@@ -1,3 +1,4 @@
+import { Nav } from "@/components/Nav";
 import "./styles.css";
 
 export default function Footer() {
@@ -134,6 +135,8 @@ export default function Footer() {
           </div>
         </div>
       </footer>
+
+      <Nav />
     </main>
   );
 }

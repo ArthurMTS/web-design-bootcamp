@@ -2,6 +2,7 @@
 import { useState } from "react";
 
 import "./styles.css";
+import { Nav } from "@/components/Nav";
 
 export default function Sidebar() {
   const [open, setOpen] = useState(false);
@@ -65,6 +66,8 @@ export default function Sidebar() {
           </nav>
         </div>
       </nav>
+
+      <Nav />
     </main>
   );
 }

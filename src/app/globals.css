@@ -5,3 +5,16 @@
 html, body, main {
   height: 100%;
 }
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+main h1 {
+  font-size: 2rem;
+}
+
+main .details {
+  font-size: 1.2rem;
+}

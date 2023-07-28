@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import "./styles.css";
+import { Nav } from "@/components/Nav";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -24,6 +25,8 @@ export default function Navbar() {
           <button>Projects</button>
         </nav>
       </nav>
+
+      <Nav />
     </main>
   );
 }

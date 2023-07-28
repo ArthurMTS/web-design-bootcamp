@@ -1,3 +1,4 @@
+import { Nav } from "@/components/Nav";
 import "./styles.css";
 
 export default function CreditCard() {
@@ -53,6 +54,8 @@ export default function CreditCard() {
           </div>
         </div>
       </div>
+
+      <Nav />
     </main>
   );
 }

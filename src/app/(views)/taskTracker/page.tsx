@@ -1,3 +1,4 @@
+import { Nav } from "@/components/Nav";
 import "./styles.css";
 
 export default function TaskTracker() {
@@ -298,6 +299,8 @@ export default function TaskTracker() {
           </div>
         </div>
       </div>
+
+      <Nav />
     </main>
   );
 }
