@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 
-import "./styles.css";
+import styles from "./styles.module.css";
 import { useState } from "react";
 
 export function Nav() {
@@ -12,7 +12,7 @@ export function Nav() {
   };
 
   return (
-    <div className={`nav ${open ? "open" : ""}`} onClick={togglePopUp}>
+    <div className={`${styles.nav} ${open ? styles.open : ""}`} onClick={togglePopUp}>
       <ul>
         <li><Link href="/login">Login</Link></li>
         <li><Link href="/signup">SignUp</Link></li>

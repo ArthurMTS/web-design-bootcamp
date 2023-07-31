@@ -1,18 +1,18 @@
 import { Nav } from "@/components/Nav";
-import "./styles.css";
+import styles from "./styles.module.css";
 
 export default function Timeline() {
   return (
-    <main>
-      <div className="container">
-        <div className="timeline">
-          <div className="timeline-box" id="primary">
-            <div className="icon">
+    <main className={styles.main}>
+      <div className={styles.container}>
+        <div className={styles.timeline}>
+          <div className={styles.timelineBox} id={styles.primary}>
+            <div className={styles.icon}>
               <i className="bx bx-wink-smile"></i>
             </div>
-            <div className="timeline-body">
-              <h4 className="header">
-                <span className="badge">Primary</span>
+            <div className={styles.timelineBody}>
+              <h4 className={styles.header}>
+                <span className={styles.badge}>Primary</span>
               </h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -21,17 +21,17 @@ export default function Timeline() {
                 sapien, vitae pharetra elit. Praesent ultrices tincidunt purus a
                 eleifend.
               </p>
-              <p className="time">1 Hours Ago</p>
+              <p className={styles.time}>1 Hours Ago</p>
             </div>
           </div>
 
-          <div className="timeline-box" id="success">
-            <div className="icon">
+          <div className={styles.timelineBox} id={styles.success}>
+            <div className={styles.icon}>
               <i className="bx bx-laugh"></i>
             </div>
-            <div className="timeline-body">
-              <h4 className="header">
-                <span className="badge">Success</span>
+            <div className={styles.timelineBody}>
+              <h4 className={styles.header}>
+                <span className={styles.badge}>Success</span>
               </h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -40,17 +40,17 @@ export default function Timeline() {
                 sapien, vitae pharetra elit. Praesent ultrices tincidunt purus a
                 eleifend.
               </p>
-              <p className="time">3 Hours Ago</p>
+              <p className={styles.time}>3 Hours Ago</p>
             </div>
           </div>
 
-          <div className="timeline-box" id="danger">
-            <div className="icon">
+          <div className={styles.timelineBox} id={styles.danger}>
+            <div className={styles.icon}>
               <i className="bx bx-happy-heart-eyes"></i>
             </div>
-            <div className="timeline-body">
-              <h4 className="header">
-                <span className="badge">Danger</span>
+            <div className={styles.timelineBody}>
+              <h4 className={styles.header}>
+                <span className={styles.badge}>Danger</span>
               </h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -59,17 +59,17 @@ export default function Timeline() {
                 sapien, vitae pharetra elit. Praesent ultrices tincidunt purus a
                 eleifend.
               </p>
-              <p className="time">8 Hours Ago</p>
+              <p className={styles.time}>8 Hours Ago</p>
             </div>
           </div>
 
-          <div className="timeline-box" id="secondary">
-            <div className="icon">
+          <div className={styles.timelineBox} id={styles.secondary}>
+            <div className={styles.icon}>
               <i className="bx bx-sleepy"></i>
             </div>
-            <div className="timeline-body">
-              <h4 className="header">
-                <span className="badge">Secondary</span>
+            <div className={styles.timelineBody}>
+              <h4 className={styles.header}>
+                <span className={styles.badge}>Secondary</span>
               </h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -78,17 +78,17 @@ export default function Timeline() {
                 sapien, vitae pharetra elit. Praesent ultrices tincidunt purus a
                 eleifend.
               </p>
-              <p className="time">8 Hours Ago</p>
+              <p className={styles.time}>8 Hours Ago</p>
             </div>
           </div>
 
-          <div className="timeline-box" id="warning">
-            <div className="icon">
+          <div className={styles.timelineBox} id={styles.warning}>
+            <div className={styles.icon}>
               <i className="bx bx-dizzy"></i>
             </div>
-            <div className="timeline-body">
-              <h4 className="header">
-                <span className="badge">Warning</span>
+            <div className={styles.timelineBody}>
+              <h4 className={styles.header}>
+                <span className={styles.badge}>Warning</span>
               </h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -97,17 +97,17 @@ export default function Timeline() {
                 sapien, vitae pharetra elit. Praesent ultrices tincidunt purus a
                 eleifend.
               </p>
-              <p className="time">1 Days Ago</p>
+              <p className={styles.time}>1 Days Ago</p>
             </div>
           </div>
 
-          <div className="timeline-box" id="info">
-            <div className="icon">
+          <div className={styles.timelineBox} id={styles.info}>
+            <div className={styles.icon}>
               <i className="bx bx-cool"></i>
             </div>
-            <div className="timeline-body">
-              <h4 className="header">
-                <span className="badge">Info</span>
+            <div className={styles.timelineBody}>
+              <h4 className={styles.header}>
+                <span className={styles.badge}>Info</span>
               </h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -116,7 +116,7 @@ export default function Timeline() {
                 sapien, vitae pharetra elit. Praesent ultrices tincidunt purus a
                 eleifend.
               </p>
-              <p className="time">3 Days Ago</p>
+              <p className={styles.time}>3 Days Ago</p>
             </div>
           </div>
         </div>

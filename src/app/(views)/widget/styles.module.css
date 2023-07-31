@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
-:root {
+:root .main {
   --color-primary: #1976d2;
   --tab-width: 300px;
   --button-width: 64px;
 }
 
-main {
+main.main {
   display: grid;
   place-items: center;
   margin: 0;
@@ -22,11 +22,11 @@ main {
   border-radius: 8px;
 }
 
-input {
+.main input {
   display: none;
 }
 
-h2 {
+.main h2 {
   margin: 0 0 10px;
   font-size: 18px;
   font-weight: 400;
@@ -38,7 +38,7 @@ h2 {
   height: 140px;
 }
 
-.content-inner {
+.contentInner {
   position: absolute;
   top: 0;
   left: 0;
@@ -48,12 +48,12 @@ h2 {
   transition: 0.3s;
 }
 
-.content-inner > div {
+.contentInner > div {
   width: inherit;
   padding: 20px;
 }
 
-label {
+.main label {
   padding: 20px;
   font-size: 15px;
   width: var(--button-width);
@@ -61,7 +61,7 @@ label {
   cursor: pointer;
 }
 
-p {
+.main p {
   margin: 0;
   font-size: 15px;
   color: #888889;
@@ -101,14 +101,14 @@ p {
   opacity: 1;
 }
 
-.tabs input:nth-child(1):checked ~ .content > .content-inner {
+.tabs input:nth-child(1):checked ~ .content > .contentInner {
   translate: 0 0;
 }
 
-.tabs input:nth-child(2):checked ~ .content > .content-inner {
+.tabs input:nth-child(2):checked ~ .content > .contentInner {
   translate: calc(0px - var(--tab-width)) 0;
 }
 
-.tabs input:nth-child(3):checked ~ .content > .content-inner {
+.tabs input:nth-child(3):checked ~ .content > .contentInner {
   translate: calc(0px - var(--tab-width) * 2) 0;
 }

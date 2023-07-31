@@ -1,5 +1,5 @@
 import { Nav } from "@/components/Nav";
-import "./styles.css";
+import styles from "./styles.module.css";
 
 export const metadata = {
   title: "SignUp #1 | AsmrProg",
@@ -7,14 +7,14 @@ export const metadata = {
 
 export default function SignUp() {
   return (
-    <main>
-      <div className="circle"></div>
-      <div className="card">
-        <div className="logo">
+    <main className={styles.main}>
+      <div className={styles.circle}></div>
+      <div className={styles.card}>
+        <div className={styles.logo}>
           <i className="bx bx-bitcoin"></i>
         </div>
         <h2>Create Account</h2>
-        <form className="form">
+        <form className={styles.form}>
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />

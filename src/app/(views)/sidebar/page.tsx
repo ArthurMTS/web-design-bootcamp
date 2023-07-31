@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-import "./styles.css";
+import styles from "./styles.module.css";
 import { Nav } from "@/components/Nav";
 
 export default function Sidebar() {
@@ -12,17 +12,17 @@ export default function Sidebar() {
   };
 
   return (
-    <main className={`${open ? "open": ""}`}>
-      <nav className="sidebar">
-        <div className="sidebar-inner">
-          <header className="sidebar-header">
-            <button className="sidebar-burger" onClick={toggleSideBar}>
+    <main className={`${styles.main} ${open ? styles.open : ""}`}>
+      <nav className={styles.sidebar}>
+        <div className={styles.sidebarInner}>
+          <header className={styles.sidebarHeader}>
+            <button className={styles.sidebarBurger} onClick={toggleSideBar}>
               <i className="bx bx-menu"></i>
             </button>
-            <img src="logo.png" alt="" className="sidebar-logo" />
+            <img src="logo.png" alt="" className={styles.sidebarLogo} />
           </header>
 
-          <nav className="sidebar-menu">
+          <nav className={styles.sidebarMenu}>
             <button>
               <i className="bx bx-home"></i>
               <span>Home</span>
@@ -31,7 +31,7 @@ export default function Sidebar() {
               <i className='bx bx-user'></i>
               <span>Account</span>
             </button>
-            <button className="has-border">
+            <button className={styles.hasBorder}>
               <i className="bx bx-cog"></i>
               <span>Settings</span>
             </button>
@@ -47,7 +47,7 @@ export default function Sidebar() {
               <i className="bx bx-speaker"></i>
               <span>AudioVibe</span>
             </button>
-            <button className="has-border">
+            <button className={styles.hasBorder}>
               <i className="bx bx-music"></i>
               <span>Soundblast</span>
             </button>

@@ -8,9 +8,10 @@
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.3s;
-  position: absolute;
-  right: 20px;
-  bottom: 50px;
+  position: fixed;
+  right: 5px;
+  bottom: 10px;
+  z-index: 10;
 }
 
 .nav:hover {
@@ -47,6 +48,7 @@
   font-size: 1.1rem;
   transition: all 0.3s;
   border-bottom: 2px solid transparent;
+  color: #172222;
 }
 
 .nav ul li a:hover {

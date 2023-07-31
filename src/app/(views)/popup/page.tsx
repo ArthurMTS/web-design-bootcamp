@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 
-import "./styles.css";
 import { Nav } from "@/components/Nav";
+import styles from "./styles.module.css";
 
 export default function Popup() {
   const [open, setOpen] = useState(false);
@@ -12,12 +12,12 @@ export default function Popup() {
   };
 
   return (
-    <main className={open ? "open" : "closed"}>
+    <main className={`${styles.main} ${open ? styles.open : styles.closed}`}>
       <button onClick={toggleModal}>Open Modal</button>
 
-      <div className="modal-background" onClick={toggleModal}></div>
+      <div className={styles.modalBackground} onClick={toggleModal}></div>
 
-      <div className="modal">
+      <div className={styles.modal}>
         <h2>Modal Window</h2>
         <p>
           You have opened the modal, they are great for displaying critical informations or confirming actions!

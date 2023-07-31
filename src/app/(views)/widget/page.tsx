@@ -1,16 +1,16 @@
 import { Nav } from "@/components/Nav";
-import "./styles.css";
+import styles from "./styles.module.css";
 
 export default function Widget() {
   return (
-    <main>
-      <div className="widget">
-        <div className="tabs">
+    <main className={styles.main}>
+      <div className={styles.widget}>
+        <div className={styles.tabs}>
           <input type="radio" name="group" id="tab-1" />
           <input type="radio" name="group" id="tab-2" />
           <input type="radio" name="group" id="tab-3" />
 
-          <div className="buttons">
+          <div className={styles.buttons}>
             <label htmlFor="tab-1" className="material-symbols-outlined">
               <i className="bx bx-home-alt"></i>
             </label>
@@ -20,11 +20,11 @@ export default function Widget() {
             <label htmlFor="tab-3" className="material-symbols-outlined">
               <i className="bx bx-cog"></i>
             </label>
-            <div className="underline"></div>
+            <div className={styles.underline}></div>
           </div>
 
-          <div className="content">
-            <div className="content-inner">
+          <div className={styles.content}>
+            <div className={styles.contentInner}>
               <div>
                 <h2>Home</h2>
                 <p>

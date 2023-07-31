@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
-import "./styles.css";
+
 import { Nav } from "@/components/Nav";
+import styles from "./styles.module.css";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -11,17 +12,17 @@ export default function Navbar() {
   };
 
   return (
-    <main className={`${open ? "open" : ""}`}>
-      <nav className="navbar">
-        <div className="navbar-overlay" onClick={toggleMenuOpen}></div>
-        <button className="navbar-burger" onClick={toggleMenuOpen}>
+    <main className={`${styles.main} ${open ? styles.open : ""}`}>
+      <nav className={styles.navbar}>
+        <div className={styles.navbarOverlay} onClick={toggleMenuOpen}></div>
+        <button className={styles.navbarBurger} onClick={toggleMenuOpen}>
           <i className="bx bx-menu"></i>
         </button>
 
-        <h1 className="navbar-title">AsmrProg</h1>
-        <nav className="navbar-menu">
-          <button className="active">Youtube</button>
-          <button className="active">Archive</button>
+        <h1 className={styles.navbarTitle}>AsmrProg</h1>
+        <nav className={styles.navbarMenu}>
+          <button className={styles.active}>Youtube</button>
+          <button className={styles.active}>Archive</button>
           <button>Projects</button>
         </nav>
       </nav>

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
-main {
+main.main {
   display: grid;
   place-items: center;
   margin: 0;
@@ -13,7 +13,7 @@ main {
   animation: rotate 6s infinite alternate linear;
 }
 
-.login-card {
+.loginCard {
   position: relative;
   z-index: 3;
   width: 100%;
@@ -24,33 +24,33 @@ main {
   text-align: center;
 }
 
-.login-card > h2 {
+.loginCard > h2 {
   font-size: 36px;
   font-weight: 600;
   margin: 0 0 12px;
 }
 
-.login-card > h3 {
+.loginCard > h3 {
   color: rgba(0, 0, 0, 0.38);
   margin: 0 0 30px;
   font-weight: 500;
   font-size: 1rem;
 }
 
-.login-form {
+.loginForm {
   width: 100%;
   margin: 0;
   display: grid;
   gap: 16px;
 }
 
-.login-form > input,
-.login-form > button {
+.loginForm > input,
+.loginForm > button {
   width: 100%;
   height: 50px;
 }
 
-.login-form > input {
+.loginForm > input {
   border: 2px solid #ebebeb;
   font-family: inherit;
   font-size: 15px;
@@ -59,11 +59,11 @@ main {
   transition: all 0.375s;
 }
 
-.login-form > input:hover {
+.loginForm > input:hover {
   border: 2px solid #10449a;
 }
 
-.login-form > button {
+.loginForm > button {
   cursor: pointer;
   width: 100%;
   padding: 0 16px;
@@ -79,11 +79,11 @@ main {
   transition: all 0.375s;
 }
 
-.login-form > button:hover {
+.loginForm > button:hover {
   background-color: #10449a;
 }
 
-.login-form > a {
+.loginForm > a {
   color: #216ce7;
   font-size: 0.9rem;
   text-align: left;
@@ -92,7 +92,7 @@ main {
   transition: all 0.375s;
 }
 
-.login-form > a:hover {
+.loginForm > a:hover {
   color: #10449a;
 }
 
@@ -103,10 +103,10 @@ main {
 }
 
 @media (width >= 500px) {
-  main {
+  main.main {
     padding: 0;
   }
-  .login-card {
+  .loginCard {
     margin: 0;
     width: 400px;
   }

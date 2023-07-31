@@ -1,4 +1,4 @@
-main {
+main.main {
   font-family: sans-serif;
   background-color: #1e1e2f;
   letter-spacing: 1px;
@@ -11,7 +11,7 @@ main {
   margin: 50px auto;
 }
 
-p {
+.main p {
   font-weight: 300;
   line-height: 1.5;
   font-size: 14px;
@@ -35,12 +35,12 @@ p {
   top: 15px;
 }
 
-.timeline .timeline-box {
+.timeline .timelineBox {
   position: relative;
   margin-bottom: 2.5rem;
 }
 
-.timeline .timeline-box .icon {
+.timeline .timelineBox .icon {
   position: absolute;
   left: -88px;
   top: 4px;
@@ -52,13 +52,13 @@ p {
   text-align: center;
 }
 
-.timeline .timeline-box .icon i {
+.timeline .timelineBox .icon i {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.timeline .timeline-box .timeline-body {
+.timeline .timelineBox .timelineBody {
   background-color: #27293d;
   border-radius: 6px;
   padding: 20px 18px 15px 20px;
@@ -67,11 +67,11 @@ p {
   transition: all 0.5s ease;
 }
 
-.timeline .timeline-box .timeline-body:hover {
+.timeline .timelineBox .timelineBody:hover {
   box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.6);
 }
 
-.timeline .timeline-box .timeline-body::before {
+.timeline .timelineBox .timelineBody::before {
   content: "";
   background-color: inherit;
   width: 20px;
@@ -83,11 +83,11 @@ p {
   border-radius: 0 0 0 3px;
 }
 
-.timeline .timeline-box .timeline-body .header {
+.timeline .timelineBox .timelineBody .header {
   margin-bottom: 1.2rem;
 }
 
-.timeline .timeline-box .timeline-body .header .badge {
+.timeline .timelineBox .timelineBody .header .badge {
   background-color: #4f537b;
   padding: 4px 8px;
   font-size: 12px;
@@ -95,7 +95,7 @@ p {
   font-weight: bold;
 }
 
-.timeline .timeline-box .timeline-body .time {
+.timeline .timelineBox .timelineBody .time {
   font-weight: 300;
   font-style: italic;
   opacity: 0.4;

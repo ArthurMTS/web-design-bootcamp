@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-main {
+main.main {
   background-color: #3b3d43;
 }
 
-button {
+.main button {
   border: 0;
   padding: 0;
   font-family: inherit;
@@ -28,7 +28,7 @@ button {
   font-family: "poppins";
 }
 
-.navbar-overlay {
+.navbarOverlay {
   position: fixed;
   z-index: 2;
   top: 0;
@@ -41,12 +41,12 @@ button {
   transition: 0.5s;
 }
 
-main.open .navbar-overlay {
+main.open .navbarOverlay {
   visibility: visible;
   opacity: 1;
 }
 
-.navbar-burger {
+.navbarBurger {
   position: absolute;
   top: 0;
   left: 0;
@@ -57,12 +57,12 @@ main.open .navbar-overlay {
   padding: 0;
 }
 
-.navbar-title {
+.navbarTitle {
   margin: 0;
   font-size: 16px;
 }
 
-.navbar-menu {
+.navbarMenu {
   position: fixed;
   z-index: 3;
   top: 0;
@@ -80,23 +80,23 @@ main.open .navbar-overlay {
   transition: all 0.3s;
 }
 
-main.open .navbar-menu {
+main.open .navbarMenu {
   translate: 0 0;
   visibility: visible;
 }
 
-.navbar-menu > button {
+.navbarMenu > button {
   color: rgba(255, 255, 255, 0.5);
   background: transparent;
   padding: 0 8px;
   transition: all 0.3s;
 }
 
-.navbar-menu > button.active {
+.navbarMenu > button.active {
   color: inherit;
 }
 
-.navbar-menu > button.active:hover {
+.navbarMenu > button.active:hover {
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -105,13 +105,13 @@ main.open .navbar-menu {
     justify-content: space-between;
     padding: 0 0 0 16px;
   }
-  .navbar-overlay {
+  .navbarOverlay {
     display: none;
   }
-  .navbar-burger {
+  .navbarBurger {
     display: none;
   }
-  .navbar-menu {
+  .navbarMenu {
     position: static;
     translate: 0 0;
     width: auto;

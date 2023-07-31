@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
-main {
+main.main {
   height: 100%;
   display: grid;
   place-items: center;
@@ -149,9 +149,6 @@ main {
 }
 
 @media (width >= 500px) {
-  body {
-    padding: 0;
-  }
   .card {
     margin: 0;
     width: 360px;

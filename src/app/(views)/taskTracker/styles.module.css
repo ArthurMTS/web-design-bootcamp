@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
-main {
+.main {
   background-color: #78909c;
-  padding: 10px;
+  min-height: 100vh;
   height: fit-content;
 }
 
-main h2 {
+.main h2 {
   margin: 20px 0 8px 30px;
   color: #212121;
 }
@@ -17,19 +17,19 @@ main h2 {
   flex-wrap: wrap;
 }
 
-.box-column {
+.boxColumn {
   margin-top: 15px;
   width: 320px;
 }
 
-.box-header {
+.boxHeader {
   display: flex;
   justify-content: space-between;
   list-style: none;
   margin-bottom: 10px;
 }
 
-.box-header span {
+.boxHeader span {
   margin-left: 5px;
   background-color: #fff;
   padding: 3px 6px;
@@ -37,7 +37,7 @@ main h2 {
   color: #1976d2;
 }
 
-.box-header i {
+.boxHeader i {
   margin-right: 5px;
   color: #fff;
   cursor: pointer;
@@ -85,7 +85,7 @@ main h2 {
   background-color: #fbc02d;
 }
 
-.box-footer {
+.boxFooter {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -100,7 +100,7 @@ main h2 {
   align-items: center;
 }
 
-.box-footer i {
+.boxFooter i {
   margin-right: 5px;
 }
 

@@ -1,9 +1,9 @@
-main {
+main.main {
   margin: 0;
   background-color: #121212;
 }
 
-button {
+.main button {
   background: transparent;
   border: 0;
   padding: 0;
@@ -25,14 +25,14 @@ main.open .sidebar {
   width: 240px;
 }
 
-.sidebar-inner {
+.sidebarInner {
   position: absolute;
   top: 0;
   left: 0;
   width: 300px;
 }
 
-.sidebar-header {
+.sidebarHeader {
   display: flex;
   align-items: center;
   height: 68px;
@@ -42,45 +42,45 @@ main.open .sidebar {
   transition: all 0.4s;
 }
 
-.sidebar-header:hover {
+.sidebarHeader:hover {
   border-left: 3px solid #bdbdbd;
 }
 
-.sidebar-burger {
+.sidebarBurger {
   width: 70px;
   height: 70px;
   display: grid;
   place-items: center;
 }
 
-.sidebar-burger > i,
-main.open .sidebar-burger > i {
+.sidebarBurger > i,
+main.open .sidebarBurger > i {
   font-size: 25px;
   color: #f9f9f9;
   transition: all 0.4s;
 }
 
-.sidebar-burger:hover > i,
-main.open .sidebar-burger:hover > i {
+.sidebarBurger:hover > i,
+main.open .sidebarBurger:hover > i {
   color: #bdbdbd;
 }
 
-.sidebar-logo {
+.sidebarLogo {
   height: 30px;
   opacity: 0;
   transition: all 0.4s;
 }
 
-main.open .sidebar-logo {
+main.open .sidebarLogo {
   opacity: 1;
   transition: all 0.4s;
 }
 
-.sidebar-menu {
+.sidebarMenu {
   display: grid;
 }
 
-.sidebar-menu > button {
+.sidebarMenu > button {
   display: flex;
   gap: 12px;
   align-items: center;
@@ -95,34 +95,34 @@ main.open .sidebar-logo {
   transition: all 0.4s;
 }
 
-.sidebar-menu >button:hover {
+.sidebarMenu >button:hover {
   border-left: 3px solid #f9f9f9;
 }
 
-.sidebar-menu > button.has-border {
+.sidebarMenu > button.hasBorder {
   padding-bottom: 1rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   margin-bottom: 1rem;
 }
 
-.sidebar-menu > button > i {
+.sidebarMenu > button > i {
   font-size: 25px;
   color: #f9f9f9;
   transition: all 0.4s;
 }
 
-.sidebar-menu > button:hover > i,
-.sidebar-menu > button:hover > span {
+.sidebarMenu > button:hover > i,
+.sidebarMenu > button:hover > span {
   color: #bdbdbd;
 }
 
-.sidebar-menu > button > span {
+.sidebarMenu > button > span {
   color: #f9f9f9;
   opacity: 0;
   transition: all 0.4s;
 }
 
-main.open .sidebar-menu > button > span {
+main.open .sidebarMenu > button > span {
   opacity: 1;
   transition: all 0.4s;
 }

@@ -2,7 +2,7 @@
   fill: #fff;
 }
 
-main {
+main.main {
   background-color: #f1f1f1;
   font-family: "Segoe UI", sans-serif;
   min-height: 100%;
@@ -17,7 +17,7 @@ main {
   width: 90%;
 }
 
-input {
+.main input {
   background-color: transparent;
   border: none;
   color: #fff;
@@ -25,11 +25,11 @@ input {
   width: auto;
 }
 
-input::placeholder {
+.main input::placeholder {
   color: #fff;
 }
 
-label {
+.main label {
   display: block;
 }
 
@@ -66,32 +66,32 @@ label {
   outline: none;
 }
 
-.card-number {
+.cardNumber {
   font-size: 32px;
 }
 
-.card-expire {
+.cardExpire {
   float: left;
 }
 
-.card-expire input {
+.cardExpire input {
   font-size: 0.9rem;
 }
 
-.card-expire-month {
+.cardExpireMonth {
   width: 22%;
 }
 
-.card-expire-month,
-.card-expire-year {
+.cardExpireMonth,
+.cardExpireYear {
   float: left;
 }
 
-.card-cvv {
+.cardCvv {
   float: right;
 }
 
-.card-cvv input {
+.cardCvv input {
   width: 2rem;
   text-align: center;
   font-size: 0.9rem;

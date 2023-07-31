@@ -1,107 +1,108 @@
 import { Nav } from "@/components/Nav";
-import "./styles.css";
+import styles from "./styles.module.css";
 
 export default function Footer() {
   return (
-    <main>
-      <footer className="footer">
-        <div className="footer-container">
-          <div className="footer-top">
+    <main className={styles.main}>
+      <div></div>
+      <footer className={styles.footer}>
+        <div className={styles.footerContainer}>
+          <div className={styles.footerTop}>
             <div>
-              <h6 className="footer-title">Microsoft Store</h6>
-              <ul className="footer-list">
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+              <h6 className={styles.footerTitle}>Microsoft Store</h6>
+              <ul className={styles.footerList}>
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     About
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Careers
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Affiliates
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Sitemap
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h6 className="footer-title">Microsoft Store</h6>
-              <ul className="footer-list">
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+              <h6 className={styles.footerTitle}>Microsoft Store</h6>
+              <ul className={styles.footerList}>
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     About
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Careers
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Affiliates
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Sitemap
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h6 className="footer-title">Microsoft Store</h6>
-              <ul className="footer-list">
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+              <h6 className={styles.footerTitle}>Microsoft Store</h6>
+              <ul className={styles.footerList}>
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     About
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Careers
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Affiliates
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Sitemap
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h6 className="footer-title">Microsoft Store</h6>
-              <ul className="footer-list">
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+              <h6 className={styles.footerTitle}>Microsoft Store</h6>
+              <ul className={styles.footerList}>
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     About
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Careers
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Affiliates
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                <li className={styles.footerListItem}>
+                  <a href="#" className={styles.footerListLink}>
                     Sitemap
                   </a>
                 </li>
@@ -109,25 +110,25 @@ export default function Footer() {
             </div>
           </div>
 
-          <hr className="footer-divider" />
+          <hr className={styles.footerDivider} />
 
-          <div className="footer-bottom">
+          <div className={styles.footerBottom}>
             <span className="copyright">
               &copy; 2022 AsmrProg. All rights reserved.
             </span>
-            <ul className="footer-list">
-              <li className="footer-list-item">
-                <a href="#" className="footer-list-link">
+            <ul className={styles.footerList}>
+              <li className={styles.footerListItem}>
+                <a href="#" className={styles.footerListLink}>
                   <i className="bx bxl-facebook-circle"></i>
                 </a>
               </li>
-              <li className="footer-list-item">
-                <a href="#" className="footer-list-link">
+              <li className={styles.footerListItem}>
+                <a href="#" className={styles.footerListLink}>
                   <i className="bx bxl-instagram-alt"></i>
                 </a>
               </li>
-              <li className="footer-list-item">
-                <a href="#" className="footer-list-link">
+              <li className={styles.footerListItem}>
+                <a href="#" className={styles.footerListLink}>
                   <i className="bx bxl-twitter"></i>
                 </a>
               </li>
